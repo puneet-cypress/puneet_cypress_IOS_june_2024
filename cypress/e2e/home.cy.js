@@ -16,4 +16,10 @@ beforeEach (() => {
   cy.get('dt').eq(2).contains("Free and Open Source")
     
 })
+
+it('verif courses on the home page', () => {
+  cy.get('dt').eq(0).contains("4 Courses")
+
+});
+
 });
