@@ -1,6 +1,7 @@
 describe('template spec', () => {
 beforeEach (() => {
-  cy.visit("http://localhost:3000");
+  //cy.visit("http://localhost:3000");
+  cy.visit("/");
 });
 
 
@@ -14,4 +15,10 @@ beforeEach (() => {
   //adding a new line
     
 })
+
+it('verif courses on the home page', () => {
+  cy.get('dt').eq(0).contains("4 Courses")
+
+});
+
 });
