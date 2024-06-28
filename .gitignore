@@ -1,6 +1,6 @@
 
-//PUNEET NOTES THIS NEVER GETS PUSHED TO GIT....Guneet mentioned....pnp.js (file is dot).... / is for teh folders like# testing
-/coverage
+# PUNEET NOTES THIS NEVER GETS PUSHED TO GIT....Guneet mentioned....pnp.js (file is dot).... / is for teh folders like# testing
+# coverage we still push gitignore but dont give access to teh content within that file from the folders. the files which contains dadat that must not be shared to open source.
 
 
 
