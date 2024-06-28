@@ -23,3 +23,29 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+//Puneet
+
+
+// cypress/support/commands.js
+//cy.get("[data-test='email-input']")
+
+Cypress.Commands.add('EMAIL', (email) => {
+    cy.get("[data-test='email-input']"); // Adjust the selector as necessary
+  });
+
+  Cypress.Commands.add('SUBSCRIBE', (Subscribe) => {
+    cy.get("[data-test='submit-button']");
+  });
+
+  Cypress.Commands.add('SUCCESS', (success) => {
+    cy.get("[data-test='success-message']");
+
+  });
+
+
+
+//   (cy.get('[data-test="submit-button"]').contains('Subscribe').click());
+    // cy.get('[data-test="success-message"]').contains("puneetness@gmail.com");
+  
+  
